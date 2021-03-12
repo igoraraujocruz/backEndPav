@@ -1,8 +1,8 @@
 import 'reflect-metadata';
 import express from 'express';
+import 'express-async-errors';
 import routes from './routes';
 import uploadConfig from './config/upload';
-import 'express-async-errors';
 import { Request, Response, NextFunction } from 'express';
 import AppError from './erros/AppError';
 import cors from 'cors';
